@@ -36,7 +36,7 @@ async function gameDetails() {
     `
 
   } catch (error) {
-    detailsContainer.innerHTML = "Ooobs, something is wrong";
+    detailsContainer.innerHTML = "Obs, something went wrong";
     console.log(error);
   }
 
