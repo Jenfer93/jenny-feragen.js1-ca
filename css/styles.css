@@ -26,14 +26,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 800px;
+  max-width: 600px;
   margin: auto;
   margin-top: 20px;
+  padding: 20px;
 }
 
 .nav-button {
   font-size: 20px;
-  margin-right: 200px;
   border-bottom: 2px solid rgb(41, 35, 35);
 }
 
@@ -59,8 +59,9 @@ a {
 }
 
 .details-container {
-  max-width: 500px;
+  max-width: 600px;
   margin: auto;
+  padding: 20px;
 }
 
 .status {

@@ -25,7 +25,7 @@ async function getGames () {
                                   <div>
                                   <h2>${results[i].title}</h2>
                                   <p>Created by: <span>${results[i].developer}</span></p>
-                                  <p>Platform: ${results[i].platform} </p>
+                                  <p>Platform: <span>${results[i].platform}</span></p>
                                   </div>
                                 </a>`
 
