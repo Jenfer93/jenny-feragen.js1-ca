@@ -1,0 +1,114 @@
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 30px #fff;
+  border-top: solid 30px rgb(102, 2, 2);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 800px;
+}
+
+.nav-button {
+  font-size: 20px;
+  margin-right: 200px;
+  border-bottom: 2px solid rgb(41, 35, 35);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 800px;
+}
+
+.game {
+  margin-top: 10px;
+  padding: 10px;
+  width: 200px;
+  border: 3px rgb(102, 2, 2) solid;
+  border-radius: 5px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.details-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.status {
+  font-weight: bold;
+  color: rgb(187, 31, 31);
+}
+
+span {
+  font-weight: bold;
+}
+
+.contact-us {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+}
+
+.submit-button {
+  display: block;
+  align-self: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  border-color: rgb(71, 70, 70);
+  color: #000;
+  cursor: pointer;
+}
+
+.form-error {
+  display: none;
+  margin-top: 0;
+  color: rgb(156, 6, 6);
+}
+
+.message {
+  margin: auto;
+  border: rgb(71, 163, 86) solid 1px;
+  border-radius: 10px;
+  background-color: rgb(71, 163, 86);
+  padding: 15px;
+  max-width: 200px;
+  text-align: center;
+  display: none;
+}

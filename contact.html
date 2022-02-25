@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="nav-container">
+    <h1>Contact us!</h1>
+    <a class="nav-button" href="index.html">
+    Go home
+    </a>
+  </div>
+  <div class="message">Submission successful</div>
+
+  <form class="contact-us" id="form" type="GET">
+    <label for="name">Full name (required)</label>
+    <input type="text" id="name" name="name" />
+    <div id="fullName-error" class="form-error">*Please fill in full name</div>
+    
+    <label for="subject">Subject (minimum 10 characters)</label>
+    <input type="text" id="subject" name="subject" />
+    <div id="subject-error" class="form-error">*Please fill in subject with minimum 10 characters</div>
+   
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" />
+    <div id="email-error" class="form-error">*Please fill in a valid email</div>
+   
+    <label for="address">Address (Minimum 25 characters</label>
+    <input type="text" id="address" name="address"/>
+    <div id="address-error" class="form-error">*Please fill in your address with minimum 25 characters</div>
+    
+    <button class="submit-button">Submit</button>
+    <script src="/js/contact.js"></script>
+  </form>
+</body>
+</html>
