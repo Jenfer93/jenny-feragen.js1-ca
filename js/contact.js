@@ -45,6 +45,8 @@ function validateContactForm(event) {
   if (checkLength(fullName.value, 0) && checkLength(subject.value, 10) && checkEmail(email.value) && checkLength(address.value, 25)) {
     message.style.display = "block";
     form.reset();
+  } else {
+    message.style.display = "none";
   }
 }
 

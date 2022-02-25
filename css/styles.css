@@ -1,6 +1,7 @@
 body {
   background-color: #fff;
   color: #000;
+  margin: auto;
 }
 
 .loader {
@@ -23,9 +24,11 @@ body {
 
 .nav-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   max-width: 800px;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .nav-button {
@@ -39,6 +42,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   max-width: 800px;
+  margin: auto;
 }
 
 .game {
