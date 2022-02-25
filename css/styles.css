@@ -58,6 +58,17 @@ a {
   text-decoration: none;
 }
 
+.error {
+  margin: auto;
+  border: rgb(177, 78, 86) solid 1px;
+  border-radius: 10px;
+  background-color: rgb(177, 78, 86);
+  padding: 15px;
+  max-width: 200px;
+  text-align: center;
+  font-weight: bold;
+}
+
 .details-container {
   max-width: 600px;
   margin: auto;

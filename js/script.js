@@ -35,7 +35,7 @@ async function getGames () {
 
   } catch (error){
   console.log(error);
-  container.innerHTML = "Obs, something went wrong";
+  container.innerHTML = `<div class="error">Obs, something went wrong</div>`;
   }
 
   createGameCard ()
