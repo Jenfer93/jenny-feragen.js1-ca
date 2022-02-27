@@ -1,4 +1,5 @@
 const detailsContainer = document.querySelector(".details-container");
+const title = document.querySelector("title");
 
 const queryString = document.location.search; 
 
@@ -20,6 +21,10 @@ async function gameDetails() {
     const response = await fetch(corsFixed);
     const details = await response.json();
     console.log(details);
+
+    title.innerHTML =`${details.title}`;
+
+
 
     detailsContainer.innerHTML = "";
     
