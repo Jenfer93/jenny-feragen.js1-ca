@@ -24,8 +24,6 @@ async function gameDetails() {
 
     title.innerHTML =`${details.title}`;
 
-
-
     detailsContainer.innerHTML = "";
     
 
